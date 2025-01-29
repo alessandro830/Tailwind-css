@@ -7,8 +7,115 @@
     <title>Layout</title>
 </head>
 <body>
-    <div class="container bg-red-300 mx-auto p-4 my-4 text-red-900 border-red-600 border-2">
+    <div class="container bg-red-300 mx-auto p-4 my-4 text-red-900 border-red-600 border-2 md:rounded-lg">
         <p>Texto do container</p>
     </div>
+
+    <!-- Exercício 1 -->
+        
+    <div class="container mx-auto p-4 my-4 bg-green-300 text-green-900 border-green-600 border-2 md:bg-blue-300 md:text-blue-900 md:rounded-lg md:border-blue-600">
+        <p>Exercício 1</p>
+    </div>
+    <div class="container bg-purple-700 border-2 border-purple-900 m-4 border-box p-10">
+        <p>border-box</p>
+    </div>
+    <div class="container bg-teal-400 border-2 border-teal-900 m-4 box-content p-10">
+        <p>border-content</p>
+    </div>
+
+    <!-- Display -->
+
+    <div class="container">
+        <span class="block bg-red-300">Não são elementos de bloco</span>
+        <span class="block bg-red-300">Não são elementos de bloco</span>
+        <div class="bg-blue-500 inline-block">Block</div>
+        <div class="bg-blue-500 inline-block">Block</div>
+        <div class="bg-green-900 hidden">Estou aparecendo</div>
+    </div>
+
+    <!-- Exercício 2 -->
+    
+    <div class="container m-4 p-10 bg-gray-600">
+        <div class="bg-green-500 inline-block">Div 1</div>
+        <div class="bg-blue-500 inline-block">Div 2</div>
+        <div class="bg-red-500 inline-block">Div 3</div>
+    </div>
+
+    <div class="bg-gray-500 float-right">Float right</div>
+    <div class="bg-gray-500 float-left">Float left</div>
+    <div class="clear-both"></div>
+    <div class="bg-gray-500 float-left">Float left</div>
+    <div class="bg-gray-500 float-right">Float right</div>
+
+    <div class="overflow-hidden h-16 m-10 bg-blue-300">
+        <p>Testando overflow Hidden</p>
+        <p>Testando overflow</p>
+        <p>Testando overflow</p>
+        <p>Testando overflow</p>
+        <p>Testando overflow</p>
+    </div>
+    
+    
+    <div class="overflow-auto h-16 m-10 bg-red-300">
+        <p>Testando overflow Auto</p>
+        <p>Testando overflow</p>
+        <p>Testando overflow</p>
+        <p>Testando overflow</p>
+        <p>Testando overflow</p>
+    </div>
+    
+    <div class="overflow-x-auto h-16 m-10 bg-green-300">
+        <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+    </div>
+    
+    <div class="overflow-y-auto h-16 m-10 bg-purple-300">
+        <p>Testando overflow Y Auto</p>
+        <p>Testando overflow</p>
+        <p>Testando overflow</p>
+        <p>Testando overflow</p>
+        <p>Testando overflow</p>
+    </div>
+
+    <!-- Positions -->
+
+    <div class="relative bg-pink-500">
+        Teste
+        <div class="absolute top-0 right-0 bg-pink-900">Absolute</div>
+    </div>
+
+    <!-- Exercício 3 -->
+
+    <h3>Exercício 3</h3>
+    <div class="container m-10 relative h-20 bg-gray-500 text-white">
+        Relative
+        <div class="absolute right-0 bottom-0 bg-gray-900 text-white">Absolute</div>
+    </div>
+
+    <!-- Visibility -->
+    
+    <div class="container bg-red-400 invisible m-10">
+        <p>Estou oculto</p>
+    </div>
+    
+    <!-- Z Index -->
+
+    <div class="container relative">
+        <div class="bg-red-300 w-20 h-20 p-6 absolute z-10">Na frente</div>
+        <div class="bg-red-600 w-20 h-20 p-6 absolute m-4">Atrás</div>
+    </div>
+
+    <p class="m-10">Espaço</p>
+    <p class="m-10">Espaço</p>
+    <p class="m-10">Espaço</p>
+    <p class="m-10">Espaço</p>
+
+    <!-- Exercício 3 -->
+
+    <div class="container relative h-40 bg-gray-700">
+        <div class="absolute z-10 m-2 w-20 h-20 p-6 bg-red-400">Div 1</div>
+        <div class="absolute z-20 m-4 w-20 h-20 p-6 bg-green-400">Div 2</div>
+        <div class="absolute z-30 m-6 w-20 h-20 p-6 bg-blue-400">Div 3</div>
+    </div>
+    
 </body>
 </html>
