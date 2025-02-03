@@ -4,7 +4,14 @@ module.exports = {
     "./src/**/*.{html,js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "arial": "Arial"
+      },
+      fontSize: {
+        "12xl": "8rem"
+      }
+    },
   },
   plugins: [],
 }
