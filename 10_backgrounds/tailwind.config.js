@@ -5,12 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        "arial": "Arial"
-      },
-      fontSize: {
-        "12xl": "8rem"
-      }
+      backgroundImage: theme => ({
+        "cidade": "url(../img/bg_cidade.jpg)",
+        "tailwind": "url(../img/tailwind.png)"
+      })
     },
   },
   plugins: [],
