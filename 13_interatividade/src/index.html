@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Interatividade</title>
+</head>
+<body>
+    <div class="m-4">
+        <select class="appearance-none">
+            <option>Teste</option>
+        </select>
+        <select class="appearance-none">
+            <option>Teste</option>
+        </select>
+    </div>
+
+    <!-- Cursor -->
+
+    <div class="h-20 bg-pink-400 cursor-pointer"></div>
+    <div class="h-20 bg-pink-500 cursor-wait"></div>
+    <div class="h-20 bg-pink-600 cursor-not-allowed"></div>
+    <div class="h-20 bg-pink-700 cursor-text"></div>
+    <p>Teste</p>
+
+    <!-- Outline -->
+
+    <div class="p-6 bg-red-300">
+        <input type="text" placeholder="Clica em mim" class="outline-none">
+        <input type="text" placeholder="Clica em mim 2">
+    </div>
+
+    <!-- Pointer events -->
+
+    <div class="m-4 p-4 bg-gray-300">
+        <select class="pointer-events-none">
+            <option>Teste pointers</option>
+        </select>
+        <select>
+            <option>Teste pointers</option>
+        </select>
+        <div>
+            <textarea rows="10" class="pointer-events-none"></textarea>
+            <textarea rows="10"></textarea>
+        </div>
+    </div>
+
+    <!-- Resize -->
+
+    <div class="m-4 p-4 bg-blue-300">
+        <textarea rows="10" class="resize-none"></textarea>
+        <textarea rows="10" class="resize-x"></textarea>
+        <textarea rows="10" class="resize-y"></textarea>
+        <textarea rows="10" class="resize"></textarea>
+    </div>
+
+    <!-- Select -->
+    
+    <div class="m-4 p-4 bg-blue-300">
+        <p class="select-none">Este parégrafo não pode ser selecionado</p>
+        <p class="select-auto">Este parégrafo pode ser selecionado</p>
+    </div>
+</body>
+</html>
