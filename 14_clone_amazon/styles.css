@@ -3,3 +3,27 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.addres-container {
+    @apply flex items-center border border-transparent rounded-sm px-2 py-2 md:py-0;
+}
+
+.addres-container:hover {
+    @apply border-white;
+}
+
+.item-nav-mid {
+    @apply mr-4 border border-transparent rounded-sm px-2 py-1;
+}
+
+.item-nav-mid:hover {
+    @apply border-white;
+}
+
+/* media query */
+
+@screen md {
+    .addres-container{
+        @apply py-0;
+    }
+}
